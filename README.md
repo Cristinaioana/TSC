@@ -1,2 +1,1 @@
-# TSC
-Laboratoare
+Buna ziua!
