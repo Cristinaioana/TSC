@@ -1,0 +1,150 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Cristina\Desktop\lab2 TSC
+T_opt
+Z1 Vg>`QJY[>MgMTeJO=00?a21
+Z2 04 4 4 work test fast 0
+Z3 =1-34cff6a8aace-622f020a-d8-2460
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6d;45
+Z7 dC:\Users\Cristina\Desktop\lab2 TSC
+T_opt1
+VF@d;;h2[iGZ2IC]PdLM_F0
+Z8 04 3 4 work top fast 0
+Z9 =1-34cff6a8aace-622f0d40-3d2-d88
+R4
+Z10 n@_opt1
+R6
+R7
+vinstr_register
+Z11 Mx1 6 sv_std 3 std
+Z12 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z13 Mx2 4 work 18 instr_register_pkg
+Z14 DXx4 work 18 instr_register_pkg 0 22 :JTF@fFZEAY;_aRJ`=BP83
+Z15 Izlgh4QQ_5WV`>EDVk6A=21
+Z16 V3z9A3Eb_VM7O2iR_@`ig80
+S1
+R7
+Z17 w1647248143
+Z18 8C:/Users/Cristina/Desktop/lab2 TSC/lab_dut/instr_register.sv
+Z19 FC:/Users/Cristina/Desktop/lab2 TSC/lab_dut/instr_register.sv
+L0 9
+Z20 OE;L;6.6d;45
+r1
+31
+Z21 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z22 !s100 6^c4H@z>TICN;NJ=0DO5K2
+Z23 !s105 instr_register_sv_unit
+!s85 0
+Xinstr_register_pkg
+R11
+R12
+Z24 I:JTF@fFZEAY;_aRJ`=BP83
+Z25 V:JTF@fFZEAY;_aRJ`=BP83
+S1
+R7
+Z26 w1647250743
+Z27 8C:/Users/Cristina/Desktop/lab2 TSC/lab_dut/instr_register_pkg.sv
+Z28 FC:/Users/Cristina/Desktop/lab2 TSC/lab_dut/instr_register_pkg.sv
+L0 5
+R20
+r1
+31
+R21
+Z29 !s100 V^fH5UCOegY6PL:OBDSV^3
+!s85 0
+Xinstr_register_pkg_sv_unit
+R11
+R12
+Z30 IbE?nS15?m^AN?Cob88TTV3
+Z31 VbE?nS15?m^AN?Cob88TTV3
+S1
+R7
+Z32 w1647247824
+R27
+R28
+L0 29
+R20
+r1
+31
+R21
+Z33 !s100 SBm7<7ZEULQ?7RT4jzb;G1
+!i103 1
+!s85 0
+vinstr_register_test
+R11
+R12
+R13
+R14
+Z34 IeE@zg4z7R<MT>fGAO>[zW2
+Z35 V6`6FSaj6O_Q_la;B1RaSU0
+S1
+R7
+Z36 w1647248267
+Z37 8C:/Users/Cristina/Desktop/lab2 TSC/lab01_testbench-interface/instr_register_test.sv
+Z38 FC:/Users/Cristina/Desktop/lab2 TSC/lab01_testbench-interface/instr_register_test.sv
+L0 8
+R20
+r1
+31
+R21
+Z39 !s100 O;GFnFkG5gNoFCZ]E>UU@2
+Z40 !s105 instr_register_test_sv_unit
+!s85 0
+Ytb_ifc
+R11
+R12
+R13
+R14
+Z41 I8=1FCZV]z3V;AEThG[L=P2
+Z42 V[2MM;6bj4cE27ld353ZQ90
+S1
+R7
+Z43 w1647250693
+Z44 8C:/Users/Cristina/Desktop/lab2 TSC/lab01_testbench-interface/tb_ifc.sv
+Z45 FC:/Users/Cristina/Desktop/lab2 TSC/lab01_testbench-interface/tb_ifc.sv
+L0 5
+R20
+r1
+31
+R21
+Z46 !s100 BC84V@QW:MOJh<?G>;_C32
+Z47 !s105 tb_ifc_sv_unit
+!s85 0
+vtest
+Z48 IURf_MOZ]`U[oEJ70C1G3U2
+Z49 Vk<3<[f=78GX=_HO53D;7>3
+R7
+Z50 w1614777644
+Z51 8C:/Users/Cristina/Desktop/lab2 TSC/test/test.v
+Z52 FC:/Users/Cristina/Desktop/lab2 TSC/test/test.v
+L0 7
+R20
+r1
+31
+R21
+Z53 !s100 UMPJ7EaNf`K3CO`bPi<`Q2
+!s85 0
+vtop
+R11
+R12
+R13
+R14
+Z54 ImFd?0njTISXGg1k8P1?>^1
+Z55 Ve:gFW1CKLAXc^T:7k2HoD1
+S1
+R7
+Z56 w1647250633
+Z57 8C:/Users/Cristina/Desktop/lab2 TSC/lab01_testbench-interface/top.sv
+Z58 FC:/Users/Cristina/Desktop/lab2 TSC/lab01_testbench-interface/top.sv
+L0 5
+R20
+r1
+31
+R21
+Z59 !s100 B4lb]C59mjlFM9a0Fk]TH3
+Z60 !s105 top_sv_unit
+!s85 0
