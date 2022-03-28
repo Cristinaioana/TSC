@@ -23,20 +23,20 @@ module instr_register_test
     $display(    "***********************************************************");
 
     $display("\nReseting the instruction register...");
-    intf_lab.cb.write_pointer  = 5'h00;         // initialize write pointer
-    intf_lab.cb.read_pointer   = 5'h1F;         // initialize read pointer
-    intf_lab.cb.load_en        = 1'b0;          // initialize load control line
+    intf_lab.cb.write_pointer  <= 5'h00;         // initialize write pointer
+    intf_lab.cb.read_pointer   <= 5'h1F;         // initialize read pointer
+    intf_lab.cb.load_en        <= 1'b0;          // initialize load control line
     intf_lab.cb.reset_n       <= 1'b0;          // assert reset_n (active low)
     repeat (2) @(posedge intf_lab.cb.clk) ;     // hold in reset for 2 clock cycles
-    intf_lab.cb.reset_n        = 1'b1;          // deassert reset_n (active low)
+    intf_lab.cb.reset_n        <= 1'b1;          // deassert reset_n (active low)
 
     $display("\nWriting values to register stack...");
-    @(posedge intf_lab.cb.clk) intf_lab.cb.load_en = 1'b1;  // enable writing to register
+    @(posedge intf_lab.cb.clk) intf_lab.cb.load_en <= 1'b1;  // enable writing to register
     repeat (3) begin
       @(posedge intf_lab.cb.clk) randomize_transaction;
       @(negedge intf_lab.cb.clk) print_transaction;
     end
-    @(posedge intf_lab.cb.clk) intf_lab.cb.load_en = 1'b0;  // turn-off writing to register
+    @(posedge intf_lab.cb.clk) intf_lab.cb.load_en <= 1'b0;  // turn-off writing to register
 
     // read back and display same three register locations
     $display("\nReading back the same register locations written...");
@@ -44,7 +44,7 @@ module instr_register_test
       // later labs will replace this loop with iterating through a
       // scoreboard to determine which addresses were written and
       // the expected values to be read back
-      @(posedge intf_lab.cb.clk) intf_lab.cb.read_pointer = i;
+      @(posedge intf_lab.cb.clk) intf_lab.cb.read_pointer <= i;
       @(negedge intf_lab.cb.clk) print_results;
     end
 

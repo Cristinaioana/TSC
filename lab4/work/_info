@@ -4,107 +4,115 @@ K3
 cModel Technology
 Z0 dC:\Users\Cristina\Desktop\lab2 TSC
 T_opt
-V5mI0Tg1h8=zdZJo7mES0E2
-04 3 4 work top fast 0
-Z1 =1-34cff6a8aace-6230c1dc-185-3d54
-Z2 o-quiet -auto_acc_if_foreign -work work
-Z3 n@_opt
-Z4 OE;O;6.6d;45
-Z5 dC:\Users\Cristina\Desktop\lab2 TSC
+Z1 V5mI0Tg1h8=zdZJo7mES0E2
+Z2 04 3 4 work top fast 0
+Z3 =1-34cff6a8aace-6230c1dc-185-3d54
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6d;45
+Z7 dC:\Users\Cristina\Desktop\lab2 TSC
+T_opt1
+V`IJ;lCnDzlLY:l4nG[@E_2
+04 19 4 work instr_register_test fast 0
+Z8 =1-34cff6a8aace-6241632f-135-e54
+R4
+Z9 n@_opt1
+R6
+R7
 vinstr_register
-Z6 Mx1 6 sv_std 3 std
-Z7 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
-Z8 Mx2 4 work 18 instr_register_pkg
-Z9 DXx4 work 18 instr_register_pkg 0 22 :JTF@fFZEAY;_aRJ`=BP83
-Z10 Izlgh4QQ_5WV`>EDVk6A=21
-Z11 V3z9A3Eb_VM7O2iR_@`ig80
+Z10 Mx1 6 sv_std 3 std
+Z11 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z12 Mx2 4 work 18 instr_register_pkg
+Z13 DXx4 work 18 instr_register_pkg 0 22 :JTF@fFZEAY;_aRJ`=BP83
+Z14 Izlgh4QQ_5WV`>EDVk6A=21
+Z15 V3z9A3Eb_VM7O2iR_@`ig80
 S1
-R5
-Z12 w1647248142
-Z13 8C:/Users/Cristina/Desktop/lab2 TSC/lab_dut/instr_register.sv
-Z14 FC:/Users/Cristina/Desktop/lab2 TSC/lab_dut/instr_register.sv
+Z16 dD:\TSC\lab4
+Z17 w1647251742
+Z18 8D:/TSC/lab4/lab_dut/instr_register.sv
+Z19 FD:/TSC/lab4/lab_dut/instr_register.sv
 L0 9
-Z15 OE;L;6.6d;45
+Z20 OE;L;6.6d;45
 r1
 31
-Z16 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
-Z17 !s100 6^c4H@z>TICN;NJ=0DO5K2
-Z18 !s105 instr_register_sv_unit
+Z21 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z22 !s100 6^c4H@z>TICN;NJ=0DO5K2
+Z23 !s105 instr_register_sv_unit
 !s85 0
 Xinstr_register_pkg
-R6
-R7
-Z19 I:JTF@fFZEAY;_aRJ`=BP83
-Z20 V:JTF@fFZEAY;_aRJ`=BP83
+R10
+R11
+Z24 I:JTF@fFZEAY;_aRJ`=BP83
+Z25 V:JTF@fFZEAY;_aRJ`=BP83
 S1
-R5
-Z21 w1647250742
-Z22 8C:/Users/Cristina/Desktop/lab2 TSC/lab_dut/instr_register_pkg.sv
-Z23 FC:/Users/Cristina/Desktop/lab2 TSC/lab_dut/instr_register_pkg.sv
+R16
+Z26 w1647254342
+Z27 8D:/TSC/lab4/lab_dut/instr_register_pkg.sv
+Z28 FD:/TSC/lab4/lab_dut/instr_register_pkg.sv
 L0 5
-R15
+R20
 r1
 31
-R16
-Z24 !s100 V^fH5UCOegY6PL:OBDSV^3
+R21
+Z29 !s100 V^fH5UCOegY6PL:OBDSV^3
 !s85 0
 vinstr_register_test
-R6
-R7
-R8
-R9
-Z25 IOhbnZ66?E``HN>WQYf8@k2
-Z26 VEBCnBoI9@;K2I3Z?DhHY42
+R10
+R11
+R12
+R13
+Z30 IZ_E_<PT0<BlXP[=Sd]FA10
+Z31 VEBCnBoI9@;K2I3Z?DhHY42
 S1
-R5
-Z27 w1647361873
-Z28 8C:/Users/Cristina/Desktop/lab2 TSC/lab01_testbench-interface/instr_register_test.sv
-Z29 FC:/Users/Cristina/Desktop/lab2 TSC/lab01_testbench-interface/instr_register_test.sv
+R16
+Z32 w1647859947
+Z33 8D:/TSC/lab4/lab01_testbench-interface/instr_register_test.sv
+Z34 FD:/TSC/lab4/lab01_testbench-interface/instr_register_test.sv
 L0 8
-R15
+R20
 r1
 31
-R16
-Z30 !s105 instr_register_test_sv_unit
-Z31 !s100 ]]LdEcHRUlUScEW]fgiI[1
+R21
+Z35 !s100 Y^MR?3j@1gNzjPYCb2O011
+Z36 !s105 instr_register_test_sv_unit
 !s85 0
 Ytb_ifc
-R6
-R7
-R8
-R9
-Z32 I8=1FCZV]z3V;AEThG[L=P2
-Z33 V[2MM;6bj4cE27ld353ZQ90
+R10
+R11
+R12
+R13
+Z37 I;ZVTbS56o_ACc<KXRNZO_1
+Z38 V[2MM;6bj4cE27ld353ZQ90
 S1
-R5
-Z34 w1647250692
-Z35 8C:/Users/Cristina/Desktop/lab2 TSC/lab01_testbench-interface/tb_ifc.sv
-Z36 FC:/Users/Cristina/Desktop/lab2 TSC/lab01_testbench-interface/tb_ifc.sv
+R16
+Z39 w1648452361
+Z40 8D:/TSC/lab4/lab01_testbench-interface/tb_ifc.sv
+Z41 FD:/TSC/lab4/lab01_testbench-interface/tb_ifc.sv
 L0 5
-R15
+R20
 r1
 31
-R16
-Z37 !s100 BC84V@QW:MOJh<?G>;_C32
-Z38 !s105 tb_ifc_sv_unit
+R21
+Z42 !s105 tb_ifc_sv_unit
+Z43 !s100 mj=<5Ke>ZNK_4Z7QjJ`:21
 !s85 0
 vtop
-R6
-R7
-R8
-R9
-Z39 IC_2:i]XM53[4=P2Hoem_53
-Z40 Ve:gFW1CKLAXc^T:7k2HoD1
+R10
+R11
+R12
+R13
+Z44 IC_2:i]XM53[4=P2Hoem_53
+Z45 Ve:gFW1CKLAXc^T:7k2HoD1
 S1
-R5
-Z41 w1647362489
-Z42 8C:/Users/Cristina/Desktop/lab2 TSC/lab01_testbench-interface/top.sv
-Z43 FC:/Users/Cristina/Desktop/lab2 TSC/lab01_testbench-interface/top.sv
+R16
+Z46 w1647859953
+Z47 8D:/TSC/lab4/lab01_testbench-interface/top.sv
+Z48 FD:/TSC/lab4/lab01_testbench-interface/top.sv
 L0 5
-R15
+R20
 r1
 31
-R16
-Z44 !s105 top_sv_unit
-Z45 !s100 eG_gEDVHk8R<LGMTD=AZT0
+R21
+Z49 !s100 eG_gEDVHk8R<LGMTD=AZT0
+Z50 !s105 top_sv_unit
 !s85 0
