@@ -1,0 +1,118 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Cristina\Desktop\lab2 TSC
+T_opt
+Z1 V5mI0Tg1h8=zdZJo7mES0E2
+Z2 04 3 4 work top fast 0
+Z3 =1-34cff6a8aace-6230c1dc-185-3d54
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6d;45
+Z7 dC:\Users\Cristina\Desktop\lab2 TSC
+T_opt1
+Z8 V`IJ;lCnDzlLY:l4nG[@E_2
+Z9 04 19 4 work instr_register_test fast 0
+Z10 =1-34cff6a8aace-6241632f-135-e54
+R4
+Z11 n@_opt1
+R6
+R7
+vinstr_register
+Z12 Mx1 6 sv_std 3 std
+Z13 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z14 Mx2 4 work 18 instr_register_pkg
+Z15 DXx4 work 18 instr_register_pkg 0 22 :JTF@fFZEAY;_aRJ`=BP83
+Z16 Izlgh4QQ_5WV`>EDVk6A=21
+Z17 V3z9A3Eb_VM7O2iR_@`ig80
+S1
+Z18 dD:\TSC\lab4
+Z19 w1647251742
+Z20 8D:/TSC/lab4/lab_dut/instr_register.sv
+Z21 FD:/TSC/lab4/lab_dut/instr_register.sv
+L0 9
+Z22 OE;L;6.6d;45
+r1
+31
+Z23 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z24 !s100 6^c4H@z>TICN;NJ=0DO5K2
+Z25 !s105 instr_register_sv_unit
+!s85 0
+Xinstr_register_pkg
+Z26 Mx1 24 C:\modeltech_6.6d\sv_std 3 std
+Z27 DXx24 C:\modeltech_6.6d\sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z28 I:JTF@fFZEAY;_aRJ`=BP83
+Z29 V:JTF@fFZEAY;_aRJ`=BP83
+S1
+R18
+Z30 w1647254342
+Z31 8D:/TSC/lab4/lab_dut/instr_register_pkg.sv
+Z32 FD:/TSC/lab4/lab_dut/instr_register_pkg.sv
+L0 5
+R22
+r1
+31
+R23
+Z33 !s100 V^fH5UCOegY6PL:OBDSV^3
+!s85 0
+vinstr_register_test
+R26
+R27
+Z34 Mx2 16 D:\TSC\lab4\work 18 instr_register_pkg
+Z35 DXx16 D:\TSC\lab4\work 18 instr_register_pkg 0 22 :JTF@fFZEAY;_aRJ`=BP83
+Z36 IZ_E_<PT0<BlXP[=Sd]FA10
+Z37 VEBCnBoI9@;K2I3Z?DhHY42
+S1
+R18
+Z38 w1647859947
+Z39 8D:/TSC/lab4/lab01_testbench-interface/instr_register_test.sv
+Z40 FD:/TSC/lab4/lab01_testbench-interface/instr_register_test.sv
+L0 8
+R22
+r1
+31
+R23
+Z41 !s100 Y^MR?3j@1gNzjPYCb2O011
+Z42 !s105 instr_register_test_sv_unit
+!s85 0
+Ytb_ifc
+R26
+R27
+R34
+R35
+Z43 I;ZVTbS56o_ACc<KXRNZO_1
+Z44 V[2MM;6bj4cE27ld353ZQ90
+S1
+R18
+Z45 w1648452361
+Z46 8D:/TSC/lab4/lab01_testbench-interface/tb_ifc.sv
+Z47 FD:/TSC/lab4/lab01_testbench-interface/tb_ifc.sv
+L0 5
+R22
+r1
+31
+R23
+Z48 !s105 tb_ifc_sv_unit
+Z49 !s100 mj=<5Ke>ZNK_4Z7QjJ`:21
+!s85 0
+vtop
+R12
+R13
+R14
+R15
+Z50 IC_2:i]XM53[4=P2Hoem_53
+Z51 Ve:gFW1CKLAXc^T:7k2HoD1
+S1
+R18
+Z52 w1647859953
+Z53 8D:/TSC/lab4/lab01_testbench-interface/top.sv
+Z54 FD:/TSC/lab4/lab01_testbench-interface/top.sv
+L0 5
+R22
+r1
+31
+R23
+Z55 !s100 eG_gEDVHk8R<LGMTD=AZT0
+Z56 !s105 top_sv_unit
+!s85 0
