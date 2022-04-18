@@ -1,0 +1,104 @@
+# Reading C:/modeltech_6.6d/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.6d Nov  1 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do run.do 555555 
+# 1
+# Model Technology ModelSim SE vlog 6.6d Compiler 2010.11 Nov  1 2010
+# -- Compiling package instr_register_pkg
+# -- Compiling module instr_register
+# -- Importing package instr_register_pkg
+# -- Compiling interface tb_ifc
+# -- Compiling module instr_register_test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim +notimingchecks +nowarnTSCALE -sva -nocoverage -quiet -sv_seed 555555 -novopt top 
+# Refreshing D:\TSC\lab6\sim\work.instr_register_pkg
+# Refreshing D:\TSC\lab6\sim\work.top
+# Refreshing D:\TSC\lab6\sim\work.tb_ifc
+# Refreshing D:\TSC\lab6\sim\work.instr_register_test
+# Refreshing D:\TSC\lab6\sim\work.instr_register
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(95): Clocking block output intf_lab.cb.opcode is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(96): Clocking block output intf_lab.cb.operand_a is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(97): Clocking block output intf_lab.cb.operand_b is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(94): Clocking block output intf_lab.cb.write_pointer is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(102): Clocking block output intf_lab.cb.read_pointer is not legal in this
+# or another expression.
+#         Region: /top/test
+# 
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+# 
+# Reseting the instruction register...
+# 
+# Writing values to register stack...
+# Writing to register location 0: 
+#   opcode = 7 (MOD)
+#   operand_a = 0
+#   operand_b = 6
+# 
+#   TIME:                   24 ns
+# Writing to register location 1: 
+#   opcode = 3 (ADD)
+#   operand_a = 1
+#   operand_b = 15
+# 
+#   TIME:                   34 ns
+# Writing to register location 2: 
+#   opcode = 7 (MOD)
+#   operand_a = 4
+#   operand_b = 13
+# 
+#   TIME:                   44 ns
+# 
+# Reading back the same register locations written...
+# Read from register location 0: 
+#   opcode = 7 (MOD)
+#   operand_a = 0
+#   operand_b = 6
+# 
+# Read from register location 1: 
+#   opcode = 3 (ADD)
+#   operand_a = 1
+#   operand_b = 15
+# 
+# Read from register location 2: 
+#   opcode = 7 (MOD)
+#   operand_a = 4
+#   operand_b = 13
+# 
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+# 
+# ** Note: $finish    : ../lab01_testbench-interface/instr_register_test.sv(69)
+#    Time: 84 ns  Iteration: 2  Instance: /top/test
+# 1
+# Break in Task run at ../lab01_testbench-interface/instr_register_test.sv line 69
+# Simulation Breakpoint: 1
+# Break in Task run at ../lab01_testbench-interface/instr_register_test.sv line 69
+# MACRO ./run.do PAUSED at line 48

@@ -1,0 +1,27 @@
+# 0
+# vsim +notimingchecks +nowarnTSCALE -sva -nocoverage -quiet -sv_seed 1523 -novopt top 
+# //  ModelSim SE 6.6d Nov  1 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# ** Error: (vsim-3043) ../lab01_testbench-interface/instr_register_test.sv(135): Unresolved reference to 'arithmetic_if'.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(42): Clocking block output #parent#.intf_lab.cb.opcode is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(31): Clocking block output #parent#.intf_lab.cb.operand_a is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(37): Clocking block output #parent#.intf_lab.cb.operand_b is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Fatal: (vsim-8274) ../lab01_testbench-interface/instr_register_test.sv(47): Virtual interface elem. 'result' not found in 'cb'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# FATAL ERROR while loading design
+# Error loading design
