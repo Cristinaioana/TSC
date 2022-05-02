@@ -24,7 +24,9 @@ if {$compile_on || [batch_mode] == 0} {
 
 # Load project
   #eval vsim -novopt -quiet -nocoverage +notimingchecks +nowarnTSCALE -sv_seed $1 -sva top
-  eval vsim -novopt -quiet -coverage -notogglevlogints +notimingchecks +nowarnTSCALE +TESTNAME=$1 -sva top
+  #eval vsim -novopt -quiet -coverage -notogglevlogints +notimingchecks +nowarnTSCALE +TESTNAME=$1 -sva top
+  vlog -sv -timescale "1ps/1ps" -cover bcesft -work work       -f sources.txt
+  eval vsim -novopt -quiet -coverage +code=bcesft +notimingchecks +nowarnTSCALE -sv_seed $1 -sva top
 
 # Run log/wave commands
 # Batch_mode = 0 [GUI_mode]; Batch_mode = 1 [regress_mode]

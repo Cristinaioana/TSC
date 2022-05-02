@@ -1,0 +1,112 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\TSC\lab7 - regresie + coverage\tools
+vinstr_register
+Z1 Mx1 6 sv_std 3 std
+Z2 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z3 Mx2 4 work 18 instr_register_pkg
+Z4 DXx4 work 18 instr_register_pkg 0 22 27nWIXMLGk5ZUh=2`dA000
+V3z9A3Eb_VM7O2iR_@`ig80
+r1
+!s85 0
+31
+I2ML=f9LXTaS:mgzHPkY^d2
+S1
+Z5 dD:\TSC\lab7 - regresie + coverage\tools
+w1650266229
+8../lab_dut/instr_register.sv
+F../lab_dut/instr_register.sv
+L0 11
+Z6 OE;L;6.6d;45
+Z7 !s102 -cover bcesft
+Z8 o-sv -cover bcesft -work work -L mtiAvm -L mtiOvm -L mtiUPF -nocovercells
+Z9 !s92 -sv -cover bcesft -work work +incdir+../../lab_dut +incdir+../../lab_dut +incdir+../lab01_testbench-interface +incdir+../lab01_testbench-interface +incdir+../lab01_testbench-interface -L mtiAvm -L mtiOvm -L mtiUPF -nocovercells
+!s105 instr_register_sv_unit
+!s100 Khc`2g_DC96J9OjV=iL3_3
+Xinstr_register_pkg
+R1
+R2
+V27nWIXMLGk5ZUh=2`dA000
+r1
+31
+I27nWIXMLGk5ZUh=2`dA000
+S1
+R5
+w1650267055
+8../lab_dut/instr_register_pkg.sv
+F../lab_dut/instr_register_pkg.sv
+L0 5
+R6
+R7
+R8
+R9
+!s85 0
+!s100 EB]eQK7l]U68>DijgWQB20
+vinstr_register_test
+R1
+R2
+R3
+R4
+VEBCnBoI9@;K2I3Z?DhHY42
+r1
+31
+IPneJ5XaV7BbWmDmfOe5dQ0
+S1
+R5
+w1650269287
+8../lab01_testbench-interface/instr_register_test.sv
+F../lab01_testbench-interface/instr_register_test.sv
+L0 12
+R6
+R7
+R8
+R9
+!s85 0
+!s105 instr_register_test_sv_unit
+!s100 SaES]`LKdY7WBl_zzYZ7P3
+Ytb_ifc
+R1
+R2
+R3
+R4
+V[2MM;6bj4cE27ld353ZQ90
+r1
+31
+IoZIhcQZ<UmWh@R9`8Vl5O0
+S1
+R5
+w1650267311
+8../lab01_testbench-interface/tb_ifc.sv
+F../lab01_testbench-interface/tb_ifc.sv
+L0 5
+R6
+R7
+R8
+R9
+!s85 0
+!s105 tb_ifc_sv_unit
+!s100 O`bzKN]dP@n?j=Nj<m46z3
+vtop
+R1
+R2
+R3
+R4
+Ve:gFW1CKLAXc^T:7k2HoD1
+r1
+31
+I>JV;;PLbLW86jaal6m2320
+S1
+R5
+w1647859953
+8../lab01_testbench-interface/top.sv
+F../lab01_testbench-interface/top.sv
+L0 5
+R6
+R7
+R8
+R9
+!s85 0
+!s105 top_sv_unit
+!s100 [V_2zj;z6aX>4]^T0?hV?0
