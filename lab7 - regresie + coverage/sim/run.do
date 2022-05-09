@@ -3,8 +3,8 @@
 #                     starts the simulation
 #---------------------------------------------------------------------------------------
 
- # Set transcript file name
-transcript file ../reports/regression_transcript/transcript_$1
+# Set transcript file name
+transcript file ../reports/regression_transcript/transcript_$1                            
 
 
 # echo $1
@@ -23,8 +23,10 @@ if {$compile_on || [batch_mode] == 0} {
 }
 
 # Load project
-  eval vsim -novopt -quiet -nocoverage +notimingchecks +nowarnTSCALE -sv_seed $1 -sva top
-# eval vsim -novopt -quiet -coverage -notogglevlogints +notimingchecks +nowarnTSCALE +TESTNAME=$1 -sva top
+  #eval vsim -novopt -quiet -nocoverage +notimingchecks +nowarnTSCALE -sv_seed $1 -sva top
+  #eval vsim -novopt -quiet -coverage -notogglevlogints +notimingchecks +nowarnTSCALE +TESTNAME=$1 -sva top
+  vlog -sv -timescale "1ps/1ps" -cover bcesft -work work       -f sources.txt
+  eval vsim -novopt -quiet -coverage +code=bcesft +notimingchecks +nowarnTSCALE -sv_seed $1 -sva top
 
 # Run log/wave commands
 # Batch_mode = 0 [GUI_mode]; Batch_mode = 1 [regress_mode]
@@ -36,7 +38,7 @@ if {[batch_mode] == 0} {
 # On brake:
 onbreak {
   # save coverage report file (when loading project with coverage)
-    #eval coverage save "../reports/regression_coverage/coverage_$1.ucdb"
+  # eval coverage save "../reports/regression_coverage/coverage_$1.ucdb"
     
   # if [regress_mode]: continue script excution
   if [batch_mode > 0] {

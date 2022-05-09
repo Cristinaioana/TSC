@@ -1,0 +1,1776 @@
+# 0
+# Model Technology ModelSim SE vlog 6.6d Compiler 2010.11 Nov  1 2010
+# -- Compiling package instr_register_pkg
+# -- Compiling module instr_register
+# -- Importing package instr_register_pkg
+# -- Compiling interface tb_ifc
+# -- Compiling module instr_register_test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim +notimingchecks +code=bcesft +nowarnTSCALE -coverage -sva -quiet -sv_seed 8888 -novopt top 
+# //  ModelSim SE 6.6d Nov  1 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing D:\TSC\lab7 - regresie + coverage\sim\work.instr_register_pkg
+# Refreshing D:\TSC\lab7 - regresie + coverage\sim\work.top
+# Refreshing D:\TSC\lab7 - regresie + coverage\sim\work.tb_ifc
+# Refreshing D:\TSC\lab7 - regresie + coverage\sim\work.instr_register_test
+# Refreshing D:\TSC\lab7 - regresie + coverage\sim\work.instr_register
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(153): Clocking block output intf_lab.cb.opcode is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(154): Clocking block output intf_lab.cb.operand_a is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(155): Clocking block output intf_lab.cb.operand_b is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(156): Clocking block output intf_lab.cb.operand_c is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(152): Clocking block output intf_lab.cb.write_pointer is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(161): Clocking block output intf_lab.cb.read_pointer is not legal in this
+# or another expression.
+#         Region: /top/test
+# 
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+# 
+# Reseting the instruction register...
+# 
+# Writing values to register stack...
+# Writing to register location 0: 
+#   opcode = 6 (DIV)
+#   operand_a = 1
+#   operand_b = 5
+# 
+#   operand_c = 8
+# 
+#   TIME:                20004 ns
+# Writing to register location 1: 
+#   opcode = 4 (SUB)
+#   operand_a = 13
+#   operand_b = 7
+# 
+#   operand_c = 10
+# 
+#   TIME:                30004 ns
+# Writing to register location 2: 
+#   opcode = 5 (MULT)
+#   operand_a = 12
+#   operand_b = 6
+# 
+#   operand_c = 14
+# 
+#   TIME:                40004 ns
+# Writing to register location 3: 
+#   opcode = 2 (PASSB)
+#   operand_a = 5
+#   operand_b = 1
+# 
+#   operand_c = 0
+# 
+#   TIME:                50004 ns
+# Writing to register location 4: 
+#   opcode = 5 (MULT)
+#   operand_a = 7
+#   operand_b = 0
+# 
+#   operand_c = 9
+# 
+#   TIME:                60004 ns
+# Writing to register location 5: 
+#   opcode = 5 (MULT)
+#   operand_a = 15
+#   operand_b = 3
+# 
+#   operand_c = 9
+# 
+#   TIME:                70004 ns
+# Writing to register location 6: 
+#   opcode = 2 (PASSB)
+#   operand_a = 13
+#   operand_b = 12
+# 
+#   operand_c = 7
+# 
+#   TIME:                80004 ns
+# Writing to register location 7: 
+#   opcode = 5 (MULT)
+#   operand_a = 12
+#   operand_b = 5
+# 
+#   operand_c = 3
+# 
+#   TIME:                90004 ns
+# Writing to register location 8: 
+#   opcode = 7 (MOD)
+#   operand_a = 11
+#   operand_b = 14
+# 
+#   operand_c = 5
+# 
+#   TIME:               100004 ns
+# Writing to register location 9: 
+#   opcode = 2 (PASSB)
+#   operand_a = 7
+#   operand_b = 9
+# 
+#   operand_c = 9
+# 
+#   TIME:               110004 ns
+# Writing to register location 10: 
+#   opcode = 7 (MOD)
+#   operand_a = 1
+#   operand_b = 11
+# 
+#   operand_c = 12
+# 
+#   TIME:               120004 ns
+# Writing to register location 11: 
+#   opcode = 0 (ZERO)
+#   operand_a = 13
+#   operand_b = 15
+# 
+#   operand_c = 15
+# 
+#   TIME:               130004 ns
+# Writing to register location 12: 
+#   opcode = 0 (ZERO)
+#   operand_a = 5
+#   operand_b = 1
+# 
+#   operand_c = 11
+# 
+#   TIME:               140004 ns
+# Writing to register location 13: 
+#   opcode = 7 (MOD)
+#   operand_a = 6
+#   operand_b = 13
+# 
+#   operand_c = 0
+# 
+#   TIME:               150004 ns
+# Writing to register location 14: 
+#   opcode = 7 (MOD)
+#   operand_a = 13
+#   operand_b = 1
+# 
+#   operand_c = 0
+# 
+#   TIME:               160004 ns
+# Writing to register location 15: 
+#   opcode = 2 (PASSB)
+#   operand_a = 13
+#   operand_b = 11
+# 
+#   operand_c = 5
+# 
+#   TIME:               170004 ns
+# Writing to register location 16: 
+#   opcode = 2 (PASSB)
+#   operand_a = 0
+#   operand_b = 2
+# 
+#   operand_c = 8
+# 
+#   TIME:               180004 ns
+# Writing to register location 17: 
+#   opcode = 6 (DIV)
+#   operand_a = 13
+#   operand_b = 15
+# 
+#   operand_c = 14
+# 
+#   TIME:               190004 ns
+# Writing to register location 18: 
+#   opcode = 1 (PASSA)
+#   operand_a = 15
+#   operand_b = 6
+# 
+#   operand_c = 0
+# 
+#   TIME:               200004 ns
+# Writing to register location 19: 
+#   opcode = 4 (SUB)
+#   operand_a = 4
+#   operand_b = 8
+# 
+#   operand_c = 10
+# 
+#   TIME:               210004 ns
+# Writing to register location 20: 
+#   opcode = 0 (ZERO)
+#   operand_a = 6
+#   operand_b = 10
+# 
+#   operand_c = 3
+# 
+#   TIME:               220004 ns
+# Writing to register location 21: 
+#   opcode = 3 (ADD)
+#   operand_a = 3
+#   operand_b = 14
+# 
+#   operand_c = 4
+# 
+#   TIME:               230004 ns
+# Writing to register location 22: 
+#   opcode = 3 (ADD)
+#   operand_a = 3
+#   operand_b = 2
+# 
+#   operand_c = 2
+# 
+#   TIME:               240004 ns
+# Writing to register location 23: 
+#   opcode = 4 (SUB)
+#   operand_a = 8
+#   operand_b = 8
+# 
+#   operand_c = 3
+# 
+#   TIME:               250004 ns
+# Writing to register location 24: 
+#   opcode = 0 (ZERO)
+#   operand_a = 2
+#   operand_b = 15
+# 
+#   operand_c = 12
+# 
+#   TIME:               260004 ns
+# Writing to register location 25: 
+#   opcode = 1 (PASSA)
+#   operand_a = 2
+#   operand_b = 12
+# 
+#   operand_c = 7
+# 
+#   TIME:               270004 ns
+# Writing to register location 26: 
+#   opcode = 0 (ZERO)
+#   operand_a = 3
+#   operand_b = 7
+# 
+#   operand_c = 15
+# 
+#   TIME:               280004 ns
+# Writing to register location 27: 
+#   opcode = 6 (DIV)
+#   operand_a = 5
+#   operand_b = 9
+# 
+#   operand_c = 0
+# 
+#   TIME:               290004 ns
+# Writing to register location 28: 
+#   opcode = 2 (PASSB)
+#   operand_a = 4
+#   operand_b = 6
+# 
+#   operand_c = 3
+# 
+#   TIME:               300004 ns
+# Writing to register location 29: 
+#   opcode = 7 (MOD)
+#   operand_a = 6
+#   operand_b = 1
+# 
+#   operand_c = 4
+# 
+#   TIME:               310004 ns
+# Writing to register location 30: 
+#   opcode = 4 (SUB)
+#   operand_a = 5
+#   operand_b = 12
+# 
+#   operand_c = 7
+# 
+#   TIME:               320004 ns
+# Writing to register location 31: 
+#   opcode = 6 (DIV)
+#   operand_a = 14
+#   operand_b = 4
+# 
+#   operand_c = 6
+# 
+#   TIME:               330004 ns
+# Writing to register location 0: 
+#   opcode = 1 (PASSA)
+#   operand_a = 9
+#   operand_b = 10
+# 
+#   operand_c = 13
+# 
+#   TIME:               340004 ns
+# Writing to register location 1: 
+#   opcode = 5 (MULT)
+#   operand_a = 7
+#   operand_b = 5
+# 
+#   operand_c = 10
+# 
+#   TIME:               350004 ns
+# Writing to register location 2: 
+#   opcode = 6 (DIV)
+#   operand_a = 5
+#   operand_b = 1
+# 
+#   operand_c = 2
+# 
+#   TIME:               360004 ns
+# Writing to register location 3: 
+#   opcode = 5 (MULT)
+#   operand_a = 10
+#   operand_b = 3
+# 
+#   operand_c = 2
+# 
+#   TIME:               370004 ns
+# Writing to register location 4: 
+#   opcode = 7 (MOD)
+#   operand_a = 14
+#   operand_b = 10
+# 
+#   operand_c = 15
+# 
+#   TIME:               380004 ns
+# Writing to register location 5: 
+#   opcode = 5 (MULT)
+#   operand_a = 13
+#   operand_b = 2
+# 
+#   operand_c = 11
+# 
+#   TIME:               390004 ns
+# Writing to register location 6: 
+#   opcode = 5 (MULT)
+#   operand_a = 5
+#   operand_b = 10
+# 
+#   operand_c = 7
+# 
+#   TIME:               400004 ns
+# Writing to register location 7: 
+#   opcode = 7 (MOD)
+#   operand_a = 15
+#   operand_b = 11
+# 
+#   operand_c = 10
+# 
+#   TIME:               410004 ns
+# Writing to register location 8: 
+#   opcode = 1 (PASSA)
+#   operand_a = 5
+#   operand_b = 15
+# 
+#   operand_c = 4
+# 
+#   TIME:               420004 ns
+# Writing to register location 9: 
+#   opcode = 1 (PASSA)
+#   operand_a = 12
+#   operand_b = 2
+# 
+#   operand_c = 1
+# 
+#   TIME:               430004 ns
+# Writing to register location 10: 
+#   opcode = 6 (DIV)
+#   operand_a = 10
+#   operand_b = 1
+# 
+#   operand_c = 13
+# 
+#   TIME:               440004 ns
+# Writing to register location 11: 
+#   opcode = 6 (DIV)
+#   operand_a = 12
+#   operand_b = 11
+# 
+#   operand_c = 0
+# 
+#   TIME:               450004 ns
+# Writing to register location 12: 
+#   opcode = 1 (PASSA)
+#   operand_a = 6
+#   operand_b = 15
+# 
+#   operand_c = 6
+# 
+#   TIME:               460004 ns
+# Writing to register location 13: 
+#   opcode = 3 (ADD)
+#   operand_a = 15
+#   operand_b = 4
+# 
+#   operand_c = 12
+# 
+#   TIME:               470004 ns
+# Writing to register location 14: 
+#   opcode = 4 (SUB)
+#   operand_a = 4
+#   operand_b = 15
+# 
+#   operand_c = 5
+# 
+#   TIME:               480004 ns
+# Writing to register location 15: 
+#   opcode = 6 (DIV)
+#   operand_a = 2
+#   operand_b = 3
+# 
+#   operand_c = 12
+# 
+#   TIME:               490004 ns
+# Writing to register location 16: 
+#   opcode = 7 (MOD)
+#   operand_a = 9
+#   operand_b = 5
+# 
+#   operand_c = 11
+# 
+#   TIME:               500004 ns
+# Writing to register location 17: 
+#   opcode = 5 (MULT)
+#   operand_a = 10
+#   operand_b = 6
+# 
+#   operand_c = 12
+# 
+#   TIME:               510004 ns
+# Writing to register location 18: 
+#   opcode = 2 (PASSB)
+#   operand_a = 8
+#   operand_b = 2
+# 
+#   operand_c = 15
+# 
+#   TIME:               520004 ns
+# Writing to register location 19: 
+#   opcode = 0 (ZERO)
+#   operand_a = 6
+#   operand_b = 11
+# 
+#   operand_c = 1
+# 
+#   TIME:               530004 ns
+# Writing to register location 20: 
+#   opcode = 5 (MULT)
+#   operand_a = 15
+#   operand_b = 10
+# 
+#   operand_c = 6
+# 
+#   TIME:               540004 ns
+# Writing to register location 21: 
+#   opcode = 4 (SUB)
+#   operand_a = 1
+#   operand_b = 9
+# 
+#   operand_c = 7
+# 
+#   TIME:               550004 ns
+# Writing to register location 22: 
+#   opcode = 0 (ZERO)
+#   operand_a = 13
+#   operand_b = 8
+# 
+#   operand_c = 4
+# 
+#   TIME:               560004 ns
+# Writing to register location 23: 
+#   opcode = 7 (MOD)
+#   operand_a = 1
+#   operand_b = 13
+# 
+#   operand_c = 15
+# 
+#   TIME:               570004 ns
+# Writing to register location 24: 
+#   opcode = 0 (ZERO)
+#   operand_a = 10
+#   operand_b = 4
+# 
+#   operand_c = 3
+# 
+#   TIME:               580004 ns
+# Writing to register location 25: 
+#   opcode = 1 (PASSA)
+#   operand_a = 1
+#   operand_b = 10
+# 
+#   operand_c = 11
+# 
+#   TIME:               590004 ns
+# Writing to register location 26: 
+#   opcode = 7 (MOD)
+#   operand_a = 8
+#   operand_b = 11
+# 
+#   operand_c = 13
+# 
+#   TIME:               600004 ns
+# Writing to register location 27: 
+#   opcode = 2 (PASSB)
+#   operand_a = 10
+#   operand_b = 13
+# 
+#   operand_c = 11
+# 
+#   TIME:               610004 ns
+# Writing to register location 28: 
+#   opcode = 3 (ADD)
+#   operand_a = 9
+#   operand_b = 9
+# 
+#   operand_c = 14
+# 
+#   TIME:               620004 ns
+# Writing to register location 29: 
+#   opcode = 2 (PASSB)
+#   operand_a = 1
+#   operand_b = 6
+# 
+#   operand_c = 4
+# 
+#   TIME:               630004 ns
+# Writing to register location 30: 
+#   opcode = 7 (MOD)
+#   operand_a = 3
+#   operand_b = 9
+# 
+#   operand_c = 6
+# 
+#   TIME:               640004 ns
+# Writing to register location 31: 
+#   opcode = 5 (MULT)
+#   operand_a = 13
+#   operand_b = 7
+# 
+#   operand_c = 14
+# 
+#   TIME:               650004 ns
+# Writing to register location 0: 
+#   opcode = 7 (MOD)
+#   operand_a = 9
+#   operand_b = 3
+# 
+#   operand_c = 15
+# 
+#   TIME:               660004 ns
+# Writing to register location 1: 
+#   opcode = 7 (MOD)
+#   operand_a = 10
+#   operand_b = 5
+# 
+#   operand_c = 5
+# 
+#   TIME:               670004 ns
+# Writing to register location 2: 
+#   opcode = 7 (MOD)
+#   operand_a = 2
+#   operand_b = 0
+# 
+#   operand_c = 4
+# 
+#   TIME:               680004 ns
+# Writing to register location 3: 
+#   opcode = 0 (ZERO)
+#   operand_a = 4
+#   operand_b = 7
+# 
+#   operand_c = 4
+# 
+#   TIME:               690004 ns
+# Writing to register location 4: 
+#   opcode = 3 (ADD)
+#   operand_a = 4
+#   operand_b = 7
+# 
+#   operand_c = 14
+# 
+#   TIME:               700004 ns
+# Writing to register location 5: 
+#   opcode = 6 (DIV)
+#   operand_a = 5
+#   operand_b = 11
+# 
+#   operand_c = 0
+# 
+#   TIME:               710004 ns
+# Writing to register location 6: 
+#   opcode = 1 (PASSA)
+#   operand_a = 5
+#   operand_b = 9
+# 
+#   operand_c = 9
+# 
+#   TIME:               720004 ns
+# Writing to register location 7: 
+#   opcode = 6 (DIV)
+#   operand_a = 12
+#   operand_b = 3
+# 
+#   operand_c = 8
+# 
+#   TIME:               730004 ns
+# Writing to register location 8: 
+#   opcode = 4 (SUB)
+#   operand_a = 7
+#   operand_b = 11
+# 
+#   operand_c = 12
+# 
+#   TIME:               740004 ns
+# Writing to register location 9: 
+#   opcode = 6 (DIV)
+#   operand_a = 12
+#   operand_b = 14
+# 
+#   operand_c = 8
+# 
+#   TIME:               750004 ns
+# Writing to register location 10: 
+#   opcode = 3 (ADD)
+#   operand_a = 8
+#   operand_b = 9
+# 
+#   operand_c = 4
+# 
+#   TIME:               760004 ns
+# Writing to register location 11: 
+#   opcode = 1 (PASSA)
+#   operand_a = 5
+#   operand_b = 12
+# 
+#   operand_c = 14
+# 
+#   TIME:               770004 ns
+# Writing to register location 12: 
+#   opcode = 2 (PASSB)
+#   operand_a = 15
+#   operand_b = 7
+# 
+#   operand_c = 14
+# 
+#   TIME:               780004 ns
+# Writing to register location 13: 
+#   opcode = 2 (PASSB)
+#   operand_a = 0
+#   operand_b = 3
+# 
+#   operand_c = 9
+# 
+#   TIME:               790004 ns
+# Writing to register location 14: 
+#   opcode = 5 (MULT)
+#   operand_a = 14
+#   operand_b = 12
+# 
+#   operand_c = 14
+# 
+#   TIME:               800004 ns
+# Writing to register location 15: 
+#   opcode = 2 (PASSB)
+#   operand_a = 14
+#   operand_b = 3
+# 
+#   operand_c = 14
+# 
+#   TIME:               810004 ns
+# Writing to register location 16: 
+#   opcode = 6 (DIV)
+#   operand_a = 7
+#   operand_b = 7
+# 
+#   operand_c = 7
+# 
+#   TIME:               820004 ns
+# Writing to register location 17: 
+#   opcode = 2 (PASSB)
+#   operand_a = 14
+#   operand_b = 11
+# 
+#   operand_c = 0
+# 
+#   TIME:               830004 ns
+# Writing to register location 18: 
+#   opcode = 1 (PASSA)
+#   operand_a = 9
+#   operand_b = 5
+# 
+#   operand_c = 9
+# 
+#   TIME:               840004 ns
+# Writing to register location 19: 
+#   opcode = 3 (ADD)
+#   operand_a = 0
+#   operand_b = 15
+# 
+#   operand_c = 2
+# 
+#   TIME:               850004 ns
+# Writing to register location 20: 
+#   opcode = 5 (MULT)
+#   operand_a = 5
+#   operand_b = 7
+# 
+#   operand_c = 8
+# 
+#   TIME:               860004 ns
+# Writing to register location 21: 
+#   opcode = 3 (ADD)
+#   operand_a = 3
+#   operand_b = 12
+# 
+#   operand_c = 11
+# 
+#   TIME:               870004 ns
+# Writing to register location 22: 
+#   opcode = 3 (ADD)
+#   operand_a = 6
+#   operand_b = 3
+# 
+#   operand_c = 4
+# 
+#   TIME:               880004 ns
+# Writing to register location 23: 
+#   opcode = 6 (DIV)
+#   operand_a = 14
+#   operand_b = 2
+# 
+#   operand_c = 10
+# 
+#   TIME:               890004 ns
+# Writing to register location 24: 
+#   opcode = 1 (PASSA)
+#   operand_a = 15
+#   operand_b = 8
+# 
+#   operand_c = 6
+# 
+#   TIME:               900004 ns
+# Writing to register location 25: 
+#   opcode = 5 (MULT)
+#   operand_a = 3
+#   operand_b = 13
+# 
+#   operand_c = 5
+# 
+#   TIME:               910004 ns
+# Writing to register location 26: 
+#   opcode = 6 (DIV)
+#   operand_a = 1
+#   operand_b = 5
+# 
+#   operand_c = 6
+# 
+#   TIME:               920004 ns
+# Writing to register location 27: 
+#   opcode = 1 (PASSA)
+#   operand_a = 4
+#   operand_b = 14
+# 
+#   operand_c = 14
+# 
+#   TIME:               930004 ns
+# Writing to register location 28: 
+#   opcode = 5 (MULT)
+#   operand_a = 12
+#   operand_b = 4
+# 
+#   operand_c = 6
+# 
+#   TIME:               940004 ns
+# Writing to register location 29: 
+#   opcode = 0 (ZERO)
+#   operand_a = 12
+#   operand_b = 4
+# 
+#   operand_c = 11
+# 
+#   TIME:               950004 ns
+# Writing to register location 30: 
+#   opcode = 1 (PASSA)
+#   operand_a = 13
+#   operand_b = 3
+# 
+#   operand_c = 4
+# 
+#   TIME:               960004 ns
+# Writing to register location 31: 
+#   opcode = 5 (MULT)
+#   operand_a = 0
+#   operand_b = 6
+# 
+#   operand_c = 3
+# 
+#   TIME:               970004 ns
+# Writing to register location 0: 
+#   opcode = 7 (MOD)
+#   operand_a = 9
+#   operand_b = 0
+# 
+#   operand_c = 5
+# 
+#   TIME:               980004 ns
+# Writing to register location 1: 
+#   opcode = 3 (ADD)
+#   operand_a = 7
+#   operand_b = 0
+# 
+#   operand_c = 7
+# 
+#   TIME:               990004 ns
+# Writing to register location 2: 
+#   opcode = 5 (MULT)
+#   operand_a = 4
+#   operand_b = 2
+# 
+#   operand_c = 2
+# 
+#   TIME:              1000004 ns
+# Writing to register location 3: 
+#   opcode = 2 (PASSB)
+#   operand_a = 2
+#   operand_b = 6
+# 
+#   operand_c = 0
+# 
+#   TIME:              1010004 ns
+# 
+# Reading back the same register locations written...
+# Read from register location 0: 
+#   opcode = 7 (MOD)
+#   operand_a = 9
+#   operand_b = 0
+# 
+#   operand_c = 5
+# 
+#   result    = x
+# 
+# Read from register location 1: 
+#   opcode = 3 (ADD)
+#   operand_a = 7
+#   operand_b = 0
+# 
+#   operand_c = 7
+# 
+#   result    = 14
+# 
+# Read from register location 2: 
+#   opcode = 5 (MULT)
+#   operand_a = 4
+#   operand_b = 2
+# 
+#   operand_c = 2
+# 
+#   result    = 8
+# 
+# Read from register location 3: 
+#   opcode = 2 (PASSB)
+#   operand_a = 2
+#   operand_b = 6
+# 
+#   operand_c = 0
+# 
+#   result    = 6
+# 
+# Read from register location 4: 
+#   opcode = 3 (ADD)
+#   operand_a = 4
+#   operand_b = 7
+# 
+#   operand_c = 14
+# 
+#   result    = 25
+# 
+# Read from register location 5: 
+#   opcode = 6 (DIV)
+#   operand_a = 5
+#   operand_b = 11
+# 
+#   operand_c = 0
+# 
+#   result    = 0
+# 
+# Read from register location 6: 
+#   opcode = 1 (PASSA)
+#   operand_a = 5
+#   operand_b = 9
+# 
+#   operand_c = 9
+# 
+#   result    = 5
+# 
+# Read from register location 7: 
+#   opcode = 6 (DIV)
+#   operand_a = 12
+#   operand_b = 3
+# 
+#   operand_c = 8
+# 
+#   result    = 4
+# 
+# Read from register location 8: 
+#   opcode = 4 (SUB)
+#   operand_a = 7
+#   operand_b = 11
+# 
+#   operand_c = 12
+# 
+#   result    = -4
+# 
+# Read from register location 9: 
+#   opcode = 6 (DIV)
+#   operand_a = 12
+#   operand_b = 14
+# 
+#   operand_c = 8
+# 
+#   result    = 0
+# 
+# Read from register location 10: 
+#   opcode = 3 (ADD)
+#   operand_a = 8
+#   operand_b = 9
+# 
+#   operand_c = 4
+# 
+#   result    = 21
+# 
+# Read from register location 11: 
+#   opcode = 1 (PASSA)
+#   operand_a = 5
+#   operand_b = 12
+# 
+#   operand_c = 14
+# 
+#   result    = 5
+# 
+# Read from register location 12: 
+#   opcode = 2 (PASSB)
+#   operand_a = 15
+#   operand_b = 7
+# 
+#   operand_c = 14
+# 
+#   result    = 7
+# 
+# Read from register location 13: 
+#   opcode = 2 (PASSB)
+#   operand_a = 0
+#   operand_b = 3
+# 
+#   operand_c = 9
+# 
+#   result    = 3
+# 
+# Read from register location 14: 
+#   opcode = 5 (MULT)
+#   operand_a = 14
+#   operand_b = 12
+# 
+#   operand_c = 14
+# 
+#   result    = 168
+# 
+# Read from register location 15: 
+#   opcode = 2 (PASSB)
+#   operand_a = 14
+#   operand_b = 3
+# 
+#   operand_c = 14
+# 
+#   result    = 3
+# 
+# Read from register location 16: 
+#   opcode = 6 (DIV)
+#   operand_a = 7
+#   operand_b = 7
+# 
+#   operand_c = 7
+# 
+#   result    = 1
+# 
+# Read from register location 17: 
+#   opcode = 2 (PASSB)
+#   operand_a = 14
+#   operand_b = 11
+# 
+#   operand_c = 0
+# 
+#   result    = 11
+# 
+# Read from register location 18: 
+#   opcode = 1 (PASSA)
+#   operand_a = 9
+#   operand_b = 5
+# 
+#   operand_c = 9
+# 
+#   result    = 9
+# 
+# Read from register location 19: 
+#   opcode = 3 (ADD)
+#   operand_a = 0
+#   operand_b = 15
+# 
+#   operand_c = 2
+# 
+#   result    = 17
+# 
+# Read from register location 20: 
+#   opcode = 5 (MULT)
+#   operand_a = 5
+#   operand_b = 7
+# 
+#   operand_c = 8
+# 
+#   result    = 35
+# 
+# Read from register location 21: 
+#   opcode = 3 (ADD)
+#   operand_a = 3
+#   operand_b = 12
+# 
+#   operand_c = 11
+# 
+#   result    = 26
+# 
+# Read from register location 22: 
+#   opcode = 3 (ADD)
+#   operand_a = 6
+#   operand_b = 3
+# 
+#   operand_c = 4
+# 
+#   result    = 13
+# 
+# Read from register location 23: 
+#   opcode = 6 (DIV)
+#   operand_a = 14
+#   operand_b = 2
+# 
+#   operand_c = 10
+# 
+#   result    = 7
+# 
+# Read from register location 24: 
+#   opcode = 1 (PASSA)
+#   operand_a = 15
+#   operand_b = 8
+# 
+#   operand_c = 6
+# 
+#   result    = 15
+# 
+# Read from register location 25: 
+#   opcode = 5 (MULT)
+#   operand_a = 3
+#   operand_b = 13
+# 
+#   operand_c = 5
+# 
+#   result    = 39
+# 
+# Read from register location 26: 
+#   opcode = 6 (DIV)
+#   operand_a = 1
+#   operand_b = 5
+# 
+#   operand_c = 6
+# 
+#   result    = 0
+# 
+# Read from register location 27: 
+#   opcode = 1 (PASSA)
+#   operand_a = 4
+#   operand_b = 14
+# 
+#   operand_c = 14
+# 
+#   result    = 4
+# 
+# Read from register location 28: 
+#   opcode = 5 (MULT)
+#   operand_a = 12
+#   operand_b = 4
+# 
+#   operand_c = 6
+# 
+#   result    = 48
+# 
+# Read from register location 29: 
+#   opcode = 0 (ZERO)
+#   operand_a = 12
+#   operand_b = 4
+# 
+#   operand_c = 11
+# 
+#   result    = 0
+# 
+# Read from register location 30: 
+#   opcode = 1 (PASSA)
+#   operand_a = 13
+#   operand_b = 3
+# 
+#   operand_c = 4
+# 
+#   result    = 13
+# 
+# Read from register location 31: 
+#   opcode = 5 (MULT)
+#   operand_a = 0
+#   operand_b = 6
+# 
+#   operand_c = 3
+# 
+#   result    = 0
+# 
+# Read from register location 0: 
+#   opcode = 7 (MOD)
+#   operand_a = 9
+#   operand_b = 0
+# 
+#   operand_c = 5
+# 
+#   result    = x
+# 
+# Read from register location 1: 
+#   opcode = 3 (ADD)
+#   operand_a = 7
+#   operand_b = 0
+# 
+#   operand_c = 7
+# 
+#   result    = 14
+# 
+# Read from register location 2: 
+#   opcode = 5 (MULT)
+#   operand_a = 4
+#   operand_b = 2
+# 
+#   operand_c = 2
+# 
+#   result    = 8
+# 
+# Read from register location 3: 
+#   opcode = 2 (PASSB)
+#   operand_a = 2
+#   operand_b = 6
+# 
+#   operand_c = 0
+# 
+#   result    = 6
+# 
+# Read from register location 4: 
+#   opcode = 3 (ADD)
+#   operand_a = 4
+#   operand_b = 7
+# 
+#   operand_c = 14
+# 
+#   result    = 25
+# 
+# Read from register location 5: 
+#   opcode = 6 (DIV)
+#   operand_a = 5
+#   operand_b = 11
+# 
+#   operand_c = 0
+# 
+#   result    = 0
+# 
+# Read from register location 6: 
+#   opcode = 1 (PASSA)
+#   operand_a = 5
+#   operand_b = 9
+# 
+#   operand_c = 9
+# 
+#   result    = 5
+# 
+# Read from register location 7: 
+#   opcode = 6 (DIV)
+#   operand_a = 12
+#   operand_b = 3
+# 
+#   operand_c = 8
+# 
+#   result    = 4
+# 
+# Read from register location 8: 
+#   opcode = 4 (SUB)
+#   operand_a = 7
+#   operand_b = 11
+# 
+#   operand_c = 12
+# 
+#   result    = -4
+# 
+# Read from register location 9: 
+#   opcode = 6 (DIV)
+#   operand_a = 12
+#   operand_b = 14
+# 
+#   operand_c = 8
+# 
+#   result    = 0
+# 
+# Read from register location 10: 
+#   opcode = 3 (ADD)
+#   operand_a = 8
+#   operand_b = 9
+# 
+#   operand_c = 4
+# 
+#   result    = 21
+# 
+# Read from register location 11: 
+#   opcode = 1 (PASSA)
+#   operand_a = 5
+#   operand_b = 12
+# 
+#   operand_c = 14
+# 
+#   result    = 5
+# 
+# Read from register location 12: 
+#   opcode = 2 (PASSB)
+#   operand_a = 15
+#   operand_b = 7
+# 
+#   operand_c = 14
+# 
+#   result    = 7
+# 
+# Read from register location 13: 
+#   opcode = 2 (PASSB)
+#   operand_a = 0
+#   operand_b = 3
+# 
+#   operand_c = 9
+# 
+#   result    = 3
+# 
+# Read from register location 14: 
+#   opcode = 5 (MULT)
+#   operand_a = 14
+#   operand_b = 12
+# 
+#   operand_c = 14
+# 
+#   result    = 168
+# 
+# Read from register location 15: 
+#   opcode = 2 (PASSB)
+#   operand_a = 14
+#   operand_b = 3
+# 
+#   operand_c = 14
+# 
+#   result    = 3
+# 
+# Read from register location 16: 
+#   opcode = 6 (DIV)
+#   operand_a = 7
+#   operand_b = 7
+# 
+#   operand_c = 7
+# 
+#   result    = 1
+# 
+# Read from register location 17: 
+#   opcode = 2 (PASSB)
+#   operand_a = 14
+#   operand_b = 11
+# 
+#   operand_c = 0
+# 
+#   result    = 11
+# 
+# Read from register location 18: 
+#   opcode = 1 (PASSA)
+#   operand_a = 9
+#   operand_b = 5
+# 
+#   operand_c = 9
+# 
+#   result    = 9
+# 
+# Read from register location 19: 
+#   opcode = 3 (ADD)
+#   operand_a = 0
+#   operand_b = 15
+# 
+#   operand_c = 2
+# 
+#   result    = 17
+# 
+# Read from register location 20: 
+#   opcode = 5 (MULT)
+#   operand_a = 5
+#   operand_b = 7
+# 
+#   operand_c = 8
+# 
+#   result    = 35
+# 
+# Read from register location 21: 
+#   opcode = 3 (ADD)
+#   operand_a = 3
+#   operand_b = 12
+# 
+#   operand_c = 11
+# 
+#   result    = 26
+# 
+# Read from register location 22: 
+#   opcode = 3 (ADD)
+#   operand_a = 6
+#   operand_b = 3
+# 
+#   operand_c = 4
+# 
+#   result    = 13
+# 
+# Read from register location 23: 
+#   opcode = 6 (DIV)
+#   operand_a = 14
+#   operand_b = 2
+# 
+#   operand_c = 10
+# 
+#   result    = 7
+# 
+# Read from register location 24: 
+#   opcode = 1 (PASSA)
+#   operand_a = 15
+#   operand_b = 8
+# 
+#   operand_c = 6
+# 
+#   result    = 15
+# 
+# Read from register location 25: 
+#   opcode = 5 (MULT)
+#   operand_a = 3
+#   operand_b = 13
+# 
+#   operand_c = 5
+# 
+#   result    = 39
+# 
+# Read from register location 26: 
+#   opcode = 6 (DIV)
+#   operand_a = 1
+#   operand_b = 5
+# 
+#   operand_c = 6
+# 
+#   result    = 0
+# 
+# Read from register location 27: 
+#   opcode = 1 (PASSA)
+#   operand_a = 4
+#   operand_b = 14
+# 
+#   operand_c = 14
+# 
+#   result    = 4
+# 
+# Read from register location 28: 
+#   opcode = 5 (MULT)
+#   operand_a = 12
+#   operand_b = 4
+# 
+#   operand_c = 6
+# 
+#   result    = 48
+# 
+# Read from register location 29: 
+#   opcode = 0 (ZERO)
+#   operand_a = 12
+#   operand_b = 4
+# 
+#   operand_c = 11
+# 
+#   result    = 0
+# 
+# Read from register location 30: 
+#   opcode = 1 (PASSA)
+#   operand_a = 13
+#   operand_b = 3
+# 
+#   operand_c = 4
+# 
+#   result    = 13
+# 
+# Read from register location 31: 
+#   opcode = 5 (MULT)
+#   operand_a = 0
+#   operand_b = 6
+# 
+#   operand_c = 3
+# 
+#   result    = 0
+# 
+# Read from register location 0: 
+#   opcode = 7 (MOD)
+#   operand_a = 9
+#   operand_b = 0
+# 
+#   operand_c = 5
+# 
+#   result    = x
+# 
+# Read from register location 1: 
+#   opcode = 3 (ADD)
+#   operand_a = 7
+#   operand_b = 0
+# 
+#   operand_c = 7
+# 
+#   result    = 14
+# 
+# Read from register location 2: 
+#   opcode = 5 (MULT)
+#   operand_a = 4
+#   operand_b = 2
+# 
+#   operand_c = 2
+# 
+#   result    = 8
+# 
+# Read from register location 3: 
+#   opcode = 2 (PASSB)
+#   operand_a = 2
+#   operand_b = 6
+# 
+#   operand_c = 0
+# 
+#   result    = 6
+# 
+# Read from register location 4: 
+#   opcode = 3 (ADD)
+#   operand_a = 4
+#   operand_b = 7
+# 
+#   operand_c = 14
+# 
+#   result    = 25
+# 
+# Read from register location 5: 
+#   opcode = 6 (DIV)
+#   operand_a = 5
+#   operand_b = 11
+# 
+#   operand_c = 0
+# 
+#   result    = 0
+# 
+# Read from register location 6: 
+#   opcode = 1 (PASSA)
+#   operand_a = 5
+#   operand_b = 9
+# 
+#   operand_c = 9
+# 
+#   result    = 5
+# 
+# Read from register location 7: 
+#   opcode = 6 (DIV)
+#   operand_a = 12
+#   operand_b = 3
+# 
+#   operand_c = 8
+# 
+#   result    = 4
+# 
+# Read from register location 8: 
+#   opcode = 4 (SUB)
+#   operand_a = 7
+#   operand_b = 11
+# 
+#   operand_c = 12
+# 
+#   result    = -4
+# 
+# Read from register location 9: 
+#   opcode = 6 (DIV)
+#   operand_a = 12
+#   operand_b = 14
+# 
+#   operand_c = 8
+# 
+#   result    = 0
+# 
+# Read from register location 10: 
+#   opcode = 3 (ADD)
+#   operand_a = 8
+#   operand_b = 9
+# 
+#   operand_c = 4
+# 
+#   result    = 21
+# 
+# Read from register location 11: 
+#   opcode = 1 (PASSA)
+#   operand_a = 5
+#   operand_b = 12
+# 
+#   operand_c = 14
+# 
+#   result    = 5
+# 
+# Read from register location 12: 
+#   opcode = 2 (PASSB)
+#   operand_a = 15
+#   operand_b = 7
+# 
+#   operand_c = 14
+# 
+#   result    = 7
+# 
+# Read from register location 13: 
+#   opcode = 2 (PASSB)
+#   operand_a = 0
+#   operand_b = 3
+# 
+#   operand_c = 9
+# 
+#   result    = 3
+# 
+# Read from register location 14: 
+#   opcode = 5 (MULT)
+#   operand_a = 14
+#   operand_b = 12
+# 
+#   operand_c = 14
+# 
+#   result    = 168
+# 
+# Read from register location 15: 
+#   opcode = 2 (PASSB)
+#   operand_a = 14
+#   operand_b = 3
+# 
+#   operand_c = 14
+# 
+#   result    = 3
+# 
+# Read from register location 16: 
+#   opcode = 6 (DIV)
+#   operand_a = 7
+#   operand_b = 7
+# 
+#   operand_c = 7
+# 
+#   result    = 1
+# 
+# Read from register location 17: 
+#   opcode = 2 (PASSB)
+#   operand_a = 14
+#   operand_b = 11
+# 
+#   operand_c = 0
+# 
+#   result    = 11
+# 
+# Read from register location 18: 
+#   opcode = 1 (PASSA)
+#   operand_a = 9
+#   operand_b = 5
+# 
+#   operand_c = 9
+# 
+#   result    = 9
+# 
+# Read from register location 19: 
+#   opcode = 3 (ADD)
+#   operand_a = 0
+#   operand_b = 15
+# 
+#   operand_c = 2
+# 
+#   result    = 17
+# 
+# Read from register location 20: 
+#   opcode = 5 (MULT)
+#   operand_a = 5
+#   operand_b = 7
+# 
+#   operand_c = 8
+# 
+#   result    = 35
+# 
+# Read from register location 21: 
+#   opcode = 3 (ADD)
+#   operand_a = 3
+#   operand_b = 12
+# 
+#   operand_c = 11
+# 
+#   result    = 26
+# 
+# Read from register location 22: 
+#   opcode = 3 (ADD)
+#   operand_a = 6
+#   operand_b = 3
+# 
+#   operand_c = 4
+# 
+#   result    = 13
+# 
+# Read from register location 23: 
+#   opcode = 6 (DIV)
+#   operand_a = 14
+#   operand_b = 2
+# 
+#   operand_c = 10
+# 
+#   result    = 7
+# 
+# Read from register location 24: 
+#   opcode = 1 (PASSA)
+#   operand_a = 15
+#   operand_b = 8
+# 
+#   operand_c = 6
+# 
+#   result    = 15
+# 
+# Read from register location 25: 
+#   opcode = 5 (MULT)
+#   operand_a = 3
+#   operand_b = 13
+# 
+#   operand_c = 5
+# 
+#   result    = 39
+# 
+# Read from register location 26: 
+#   opcode = 6 (DIV)
+#   operand_a = 1
+#   operand_b = 5
+# 
+#   operand_c = 6
+# 
+#   result    = 0
+# 
+# Read from register location 27: 
+#   opcode = 1 (PASSA)
+#   operand_a = 4
+#   operand_b = 14
+# 
+#   operand_c = 14
+# 
+#   result    = 4
+# 
+# Read from register location 28: 
+#   opcode = 5 (MULT)
+#   operand_a = 12
+#   operand_b = 4
+# 
+#   operand_c = 6
+# 
+#   result    = 48
+# 
+# Read from register location 29: 
+#   opcode = 0 (ZERO)
+#   operand_a = 12
+#   operand_b = 4
+# 
+#   operand_c = 11
+# 
+#   result    = 0
+# 
+# Read from register location 30: 
+#   opcode = 1 (PASSA)
+#   operand_a = 13
+#   operand_b = 3
+# 
+#   operand_c = 4
+# 
+#   result    = 13
+# 
+# Read from register location 31: 
+#   opcode = 5 (MULT)
+#   operand_a = 0
+#   operand_b = 6
+# 
+#   operand_c = 3
+# 
+#   result    = 0
+# 
+# Read from register location 0: 
+#   opcode = 7 (MOD)
+#   operand_a = 9
+#   operand_b = 0
+# 
+#   operand_c = 5
+# 
+#   result    = x
+# 
+# Read from register location 1: 
+#   opcode = 3 (ADD)
+#   operand_a = 7
+#   operand_b = 0
+# 
+#   operand_c = 7
+# 
+#   result    = 14
+# 
+# Read from register location 2: 
+#   opcode = 5 (MULT)
+#   operand_a = 4
+#   operand_b = 2
+# 
+#   operand_c = 2
+# 
+#   result    = 8
+# 
+# Read from register location 3: 
+#   opcode = 2 (PASSB)
+#   operand_a = 2
+#   operand_b = 6
+# 
+#   operand_c = 0
+# 
+#   result    = 6
+# 
+# Read from register location 4: 
+#   opcode = 3 (ADD)
+#   operand_a = 4
+#   operand_b = 7
+# 
+#   operand_c = 14
+# 
+#   result    = 25
+# 
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+# 
+# ** Note: $finish    : ../lab01_testbench-interface/instr_register_test.sv(127)
+#    Time: 2030004 ps  Iteration: 2  Instance: /top/test

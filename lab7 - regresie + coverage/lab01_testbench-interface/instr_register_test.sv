@@ -20,7 +20,36 @@
     parameter nr_of_operations = 100;
     //int seed = 100;
 
-covergroup my_coverage();
+// covergroup my_coverage();
+//     OP_ACOVER: coverpoint intf_lab.cb.instruction_word.op_a{
+//       bins neg[] = {[-15:-1]};
+//       bins zero = {0};
+//       bins pos[] = {[1:15]};
+//     }
+    
+//     OP_BCOVER: coverpoint intf_lab.cb.instruction_word.op_b{
+//       bins zero = {0};
+//       bins pos[] = {[1:15]};
+//     }
+
+//     OPCCOVER: coverpoint intf_lab.cb.instruction_word.opc{
+//       bins zero = {0};
+//       bins pos[] = {[1:7]};
+//     }
+	 
+// 	  RESULTCOVER: coverpoint intf_lab.cb.instruction_word.result{
+// 	    bins result_values_neg[] = {[-31:-1]};
+//       bins result_values_zero = {0};
+//       bins result_values_pos[] = {[1:31]};
+// 	}
+//   endgroup
+
+  covergroup my_coverage();
+    OP_test_COVER: coverpoint intf_lab.cb.instruction_word.op_c{
+      bins zero = {0};
+      bins pos[] = {[1:15]};
+    }
+
     OP_ACOVER: coverpoint intf_lab.cb.instruction_word.op_a{
       bins neg[] = {[-15:-1]};
       bins zero = {0};
@@ -114,6 +143,7 @@ covergroup my_coverage();
 
     intf_lab.cb.operand_a     <= $urandom()%16;                     // between -15 and 15
     intf_lab.cb.operand_b     <= $unsigned($urandom)%16;            // between 0 and 15
+    intf_lab.cb.operand_c     <= $unsigned($urandom)%16;
     intf_lab.cb.opcode        <= opcode_t'($unsigned($urandom)%8);  // between 0 and 7, cast to opcode_t type
     intf_lab.cb.write_pointer <= temp++;
   endfunction: randomize_transaction
@@ -123,6 +153,7 @@ covergroup my_coverage();
     $display("  opcode = %0d (%s)", intf_lab.cb.opcode, intf_lab.cb.opcode.name);
     $display("  operand_a = %0d",   intf_lab.cb.operand_a);
     $display("  operand_b = %0d\n", intf_lab.cb.operand_b);
+    $display("  operand_c = %0d\n", intf_lab.cb.operand_c);
     $display("  TIME: %t ns", $time);
   endfunction: print_transaction
 
@@ -131,6 +162,7 @@ covergroup my_coverage();
     $display("  opcode = %0d (%s)", intf_lab.cb.instruction_word.opc, intf_lab.cb.instruction_word.opc.name);
     $display("  operand_a = %0d",   intf_lab.cb.instruction_word.op_a);
     $display("  operand_b = %0d\n", intf_lab.cb.instruction_word.op_b);
+    $display("  operand_c = %0d\n", intf_lab.cb.instruction_word.op_c);
     $display("  result    = %0d\n", intf_lab.cb.instruction_word.result);
   endfunction: print_results
 

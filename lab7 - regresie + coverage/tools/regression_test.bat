@@ -15,3 +15,4 @@ call run_test.bat 623
 call run_test.bat 5123
 call run_test.bat 8745
 call run_test.bat 2143
+call run_test.bat 8888

@@ -1,6 +1,0 @@
-# do run.do  
-# ** Error: can't read "1": no such variable
-# Error in macro ./run.do line 7
-# can't read "1": no such variable
-#     while executing
-# "transcript file ../reports/regression_transcript/transcript_$1"

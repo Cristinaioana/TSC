@@ -4,7 +4,7 @@
 #---------------------------------------------------------------------------------------
 
 # Set transcript file name
-#transcript file ../reports/regression_transcript/transcript_$1
+transcript file ../reports/regression_transcript/transcript_$1                            
 
 
 # echo $1

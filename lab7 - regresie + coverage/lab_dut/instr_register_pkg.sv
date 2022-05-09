@@ -25,6 +25,7 @@ package instr_register_pkg;
     opcode_t  opc;
     operand_t op_a;
     operand_t op_b;
+    operand_t op_c;
     operand_res result;
   } instruction_t;
 

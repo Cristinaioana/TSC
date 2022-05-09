@@ -15,6 +15,7 @@ import instr_register_pkg::*;  // user-defined types are defined in instr_regist
  input  logic          reset_n,
  input  operand_t      operand_a,
  input  operand_t      operand_b,
+ input  operand_t      operand_c,
  input  opcode_t       opcode,
  input  address_t      write_pointer,
  input  address_t      read_pointer,
@@ -31,15 +32,25 @@ import instr_register_pkg::*;  // user-defined types are defined in instr_regist
         iw_reg[i] = '{opc:ZERO,default:0};  // reset to all zeros
     end
     else if (load_en) begin
+      // case (opcode)
+      //   PASSA : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, operand_a};
+      //   PASSB : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, operand_b};
+      //   ADD   : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, $signed(operand_a + operand_b)};
+      //   SUB   : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, $signed(operand_a - operand_b)};
+      //   MULT  : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, $signed(operand_a * operand_b)};
+      //   DIV   : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, $signed(operand_a / operand_b)};
+      //   MOD   : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, $signed(operand_a % operand_b)};
+      // default : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, 'b0};
+      // endcase
       case (opcode)
-        PASSA : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, operand_a};
-        PASSB : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, operand_b};
-        ADD   : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, $signed(operand_a + operand_b)};
-        SUB   : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, $signed(operand_a - operand_b)};
-        MULT  : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, $signed(operand_a * operand_b)};
-        DIV   : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, $signed(operand_a / operand_b)};
-        MOD   : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, $signed(operand_a % operand_b)};
-      default : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, 'b0};
+        PASSA : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, operand_c, operand_a};
+        PASSB : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, operand_c, operand_b};
+        ADD   : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, operand_c, $signed(operand_a + operand_b + operand_c)};
+        SUB   : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, operand_c, $signed(operand_a - operand_b)};
+        MULT  : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, operand_c, $signed(operand_a * operand_b)};
+        DIV   : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, operand_c, $signed(operand_a / operand_b)};
+        MOD   : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, operand_c, $signed(operand_a % operand_b)};
+      default : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, operand_c, 'b0};
       endcase
     end
 
